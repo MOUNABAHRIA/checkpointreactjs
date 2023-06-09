@@ -29,12 +29,23 @@
 #disabledTextInput{
   background-color: rgb(235, 218, 218);
   width: 50vmin;
-  margin-left: 30%;
+  margin-left: 38%;
   text-align: center;
 
 }
-.card{
-   background-color: aliceblue;
+.card{ 
+-ms-flex-item-align:center;
+
+min-height: 50vh;
+
+display: flex;
+
+align-items: center;
+justify-content: center;
+
+
+
+color: black;  
 
 }
 
